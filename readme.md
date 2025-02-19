@@ -28,6 +28,7 @@ import { intersection, arrayIntersection } from 'interval-operations';
 
 intersection([1,3], [2,4]); // [2,3]
 intersection([1,2], [3,4]); // null
+arrayIntersection([[1,2]], [[2,3]]); // []
 arrayIntersection([[1,3], [5,7]], [[2,4], [6,8]]); // [[2,3], [5,6]]
 ```
 
